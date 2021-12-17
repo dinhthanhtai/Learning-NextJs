@@ -8,7 +8,6 @@ const name = 'Dinh Tai';
 export const siteTitle = 'Next.js Sample Website';
 
 export default function Layout(props) {
-    console.log('props', props);
     const { children, home } = props;
 
     return (
